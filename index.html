@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<style>
+body {
+	margin: 0;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: "IBM Plex Sans", sans-serif;
+}
+
+	</style>
+	<body>
+
+	</body>
+	<script>
+		// setup
+		let hue = Math.floor( Math.random()*360);
+		const body = document.querySelector("body");
+
+		// get bg color
+		const bgColor = "hsl(" + hue + ", 100%, 55%)";
+
+		// set bg color
+		body.style.backgroundColor = bgColor;
+
+		// print bg color hex
+		body.innerHTML = "<h1>" + window.getComputedStyle(body).backgroundColor + "</h1>";
+	</script>
+</html>
