@@ -18,5 +18,8 @@
   "homepage": "https://github.com/AdamSzakal/just-a-random-color#readme",
   "dependencies": {
     "color-convert": "^2.0.1"
+  },
+  "devDependencies": {
+    "cssnano": "^4.1.10"
   }
 }
