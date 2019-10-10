@@ -1,5 +1,8 @@
 {
   "dependencies": {
     "color-convert": "^2.0.1"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
   }
 }
